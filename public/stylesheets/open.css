@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  .nav-content{
+    margin-left: -29%;
+    margin-top: 28px;
+  }
+  
+  .nav-content a {
+   color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin: 0 10px;
+  }
+  
+  form{
+    display: flex;
+  }
+  
+  form input[type="text"] {
+    margin-left: -160%;
+    background-color: rgb(201, 200, 200);
+    color: black;
+   padding: 8%;
+   padding-right: 250%;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+  
+  form button{
+  
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  nav .profile {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  nav .profile img {
+    margin-left: -100%;
+    border-radius: 50%;
+    margin-right: 5px;
+  
+  }
+  
+  .logo img{
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  
+
+                /* CARD CSS */
+  
+  .pinterest-card {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .pinterest-card img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .card-caption {
+    padding: 15px;
+    background-color: #fff;
+    flex: 1;
+  }
+  
+  .card-caption p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+ 
+
+         /* CONTENT CSS */
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .gallery {
+    column-count: 4;
+    --webkit-column-count: 4;
+    --moz-column-count: 4;
+    gap: 1rem;
+    padding: 4rem;
+  
+  }
+  
+  .image img {
+    height: auto;
+    width: 100%;
+  }
+  
+  /* Responsive-ness for different screen-sizes */
+  @media screen and (max-width: 810px) {
+    .gallery {
+      column-count: 3;
+      --webkit-column-count: 3;
+      --moz-column-count: 3;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .gallery {
+      column-count: 2;
+      --webkit-column-count: 2;
+      --moz-column-count: 2;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .gallery {
+      column-count: 1;
+      --webkit-column-count: 1;
+      --moz-column-count: 1;
+    }
+  }
+  
