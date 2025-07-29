@@ -41,5 +41,24 @@ This project supports user authentication, image uploads, sessions, and more!
 
 ---
 
+## How To Run
+
+1. Clone This Repository:
+   ```bash
+
+   ```
+2. Install Dependencies:
+   ```bash
+   npm install
+   ```
+3. Run The Project:
+   ```bash
+   npx nodemon
+   ```
+   
+
+2. Type:
+sh
+
 ## 📁 File Structure
 
