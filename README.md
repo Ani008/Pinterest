@@ -55,10 +55,4 @@ This project supports user authentication, image uploads, sessions, and more!
    ```bash
    npx nodemon
    ```
-   
-
-2. Type:
-sh
-
-## 📁 File Structure
 
