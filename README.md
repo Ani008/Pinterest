@@ -45,7 +45,7 @@ This project supports user authentication, image uploads, sessions, and more!
 
 1. Clone This Repository:
    ```bash
-
+   https://github.com/Ani008/Pinterest
    ```
 2. Install Dependencies:
    ```bash
